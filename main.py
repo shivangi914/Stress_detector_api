@@ -12,7 +12,7 @@ from gramformer import Gramformer
 app = FastAPI()
 
 # Load models once
-whisper_model = whisper.load_model("base")
+whisper_model = whisper.load_model("tiny")
 gf = Gramformer(models=1)
 fill_mask = pipeline("fill-mask", model="bert-base-uncased")
 embedder = SentenceTransformer("paraphrase-MiniLM-L6-v2")
