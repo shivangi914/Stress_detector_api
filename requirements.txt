@@ -1,0 +1,11 @@
+
+fastapi
+uvicorn
+python-multipart
+librosa
+transformers
+sentence-transformers
+soundfile
+pydub
+git+https://github.com/openai/whisper.git
+git+https://github.com/PrithivirajDamodaran/Gramformer.git
